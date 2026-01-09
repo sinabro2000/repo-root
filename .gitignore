@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+# Created by https://www.toptal.com/developers/gitignore/api/windows,java,python,pycharm+all,intellij+all,visualstudiocode,react,node,gradle,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,java,python,pycharm+all,intellij+all,visualstudiocode,react,node,gradle,dotenv
+=======
 # Created by https://www.toptal.com/developers/gitignore/api/java,windows,react,python,pycharm+all,intellij+all,visualstudiocode,node,gradle,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,windows,react,python,pycharm+all,intellij+all,visualstudiocode,node,gradle,dotenv
+>>>>>>> c2a27f2fb9ae6f665ffc97346bf121516b894502
 
 ### dotenv ###
 .env
@@ -562,4 +567,8 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
+<<<<<<< HEAD
+# End of https://www.toptal.com/developers/gitignore/api/windows,java,python,pycharm+all,intellij+all,visualstudiocode,react,node,gradle,dotenv
+=======
 # End of https://www.toptal.com/developers/gitignore/api/java,windows,react,python,pycharm+all,intellij+all,visualstudiocode,node,gradle,dotenv
+>>>>>>> c2a27f2fb9ae6f665ffc97346bf121516b894502
