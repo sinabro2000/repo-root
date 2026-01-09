@@ -24,12 +24,21 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/myapp?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+<<<<<<< HEAD
     username: ${MYSQL_USER:root}
     password: ${MYSQL_PASSWORD:1111}
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: validate   # ?? ?? ???? update ?? ? ?? ? validate? ??
+=======
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update   # ?? ?? ???? update ?? ? ?? ? validate? ??
+>>>>>>> 7950eeec44c74d38052e2612fecbdfd762a1dd04
     properties:
       hibernate:
         show_sql: true
